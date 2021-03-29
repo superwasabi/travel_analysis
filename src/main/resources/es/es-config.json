@@ -1,0 +1,20 @@
+{
+  "config": {
+    "cluster.name": "bigdata",
+    "client.transport.sniff": true
+  },
+  "address": [
+    {
+      "ip": "mnode1",
+      "port": 9300
+    },
+    {
+      "ip": "node2",
+      "port": 9300
+    },
+    {
+      "ip": "node3",
+      "port": 9300
+    }
+  ]
+}
